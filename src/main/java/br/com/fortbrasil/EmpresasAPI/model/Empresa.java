@@ -23,6 +23,8 @@ public class Empresa {
 	
 	private String email;
 	
+	private String ddd;
+	
 	private String telefone;
 	
 	@OneToOne
@@ -43,6 +45,14 @@ public class Empresa {
 
 	public void setNome(String nome) {
 		this.nome = nome;
+	}
+
+	public String getDdd() {
+		return ddd;
+	}
+
+	public void setDdd(String ddd) {
+		this.ddd = ddd;
 	}
 
 	public String getEmail() {
